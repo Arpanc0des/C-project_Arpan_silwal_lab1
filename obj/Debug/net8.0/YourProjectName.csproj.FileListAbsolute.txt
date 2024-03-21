@@ -58,3 +58,4 @@ E:\Projects\asp&F#\C#project_Arpan_silwal_lab1\obj\Debug\net8.0\refint\YourProje
 E:\Projects\asp&F#\C#project_Arpan_silwal_lab1\obj\Debug\net8.0\YourProjectName.pdb
 E:\Projects\asp&F#\C#project_Arpan_silwal_lab1\obj\Debug\net8.0\YourProjectName.genruntimeconfig.cache
 E:\Projects\asp&F#\C#project_Arpan_silwal_lab1\obj\Debug\net8.0\ref\YourProjectName.dll
+E:\Projects\asp&F#\C#project_Arpan_silwal_lab1\obj\Debug\net8.0\YourProjectName.sourcelink.json

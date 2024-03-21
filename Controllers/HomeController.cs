@@ -50,6 +50,9 @@ namespace YourProjectName.Controllers
                         return View("Index");
                     }
                     break;
+                case "power":
+                    result = Math.Pow(firstNumber,secondNumber);
+                    break;
                 default:
                     ViewBag.Result = "Invalid operation";
                     return View("Index");

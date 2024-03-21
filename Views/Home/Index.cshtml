@@ -5,15 +5,16 @@
 <div class="text-center">
     <h1 class="display-4">Arpan Silwal Calculator Project</h1>
     <br>
-    @* post makes httppost and it triggers the calculate method under it in the controller file *@
+    @*(comment) post makes httppost and it triggers the calculate method under it in the controller file *@
     <form method="post" asp-action="Calculate">
-    <input name="firstNumber" placeholder="First Number" type="number" required>
-    <input name="secondNumber" placeholder="Second Number" type="number" required>
-    <span>@ViewBag.Result</span>
-    <br><br>
-    <button name="operation" value="add">+</button>
-    <button name="operation" value="subtract">-</button>
-    <button name="operation" value="multiply">*</button>
-    <button name="operation" value="divide">/</button>
-</form>
+        <input name="firstNumber" placeholder="First Number" type="number" required>
+        <input name="secondNumber" placeholder="Second Number" type="number" required>
+        <div>@ViewBag.Result</div>
+        <br><br>
+        <button name="operation" value="add">+</button>
+        <button name="operation" value="subtract">-</button>
+        <button name="operation" value="multiply">*</button>
+        <button name="operation" value="divide">/</button>
+        <button name="operation" value="power">^</button>
+    </form>
 </div>
